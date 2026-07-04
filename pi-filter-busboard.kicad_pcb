@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -134,7 +133,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 2.25 5.25 0)
+			(at 2.25 -4 0)
 			(layer "F.SilkS")
 			(uuid "477e2e3a-14e7-4c59-b19f-f79119335d88")
 			(effects
@@ -145,7 +144,7 @@
 			)
 		)
 		(property "Value" "4700uF"
-			(at 3.75 9.25 0)
+			(at 0.25 -2.5 0)
 			(layer "F.Fab")
 			(uuid "09cd2f3a-0d8b-4acb-84ba-6b1589b765b3")
 			(effects
@@ -4040,6 +4039,7 @@
 		(property "Reference" "J23"
 			(at 2.5 -3.25 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8c9d10ff-ab32-436d-bae9-464fd101c168")
 			(effects
 				(font
@@ -4406,17 +4406,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "1fee0b00-8daf-4cab-b5ad-193ac605859d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5 -6.12 0)
-			(layer "F.Fab")
-			(uuid "d9989d57-60c2-4a27-85d7-6f1bfa78b915")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
@@ -4906,9 +4895,9 @@
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 3 -6.75 90)
+			(at 0.402651 -2.25 90)
 			(layer "F.SilkS")
-			(uuid "14f5edfc-9a74-4d81-9d61-7f3ba351d773")
+			(uuid "c5516e1c-e180-425e-be09-770f2d848522")
 			(effects
 				(font
 					(size 1 1)
@@ -4917,9 +4906,9 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 1.75 5.25 90)
+			(at 6.902651 0.25 180)
 			(layer "F.Fab")
-			(uuid "0162ef1a-ee09-4ca2-9688-09be78d48791")
+			(uuid "a3198c85-ed94-48a1-a1ce-f0f683cfa360")
 			(effects
 				(font
 					(size 1 1)
@@ -4931,7 +4920,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b19c3ff-4931-4ac9-9774-e2df622c0571")
+			(uuid "918b5d6b-0299-4c5a-818e-7216b1af7ef2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4931,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "194f56ad-e0b2-41ee-9388-8a9df99089cf")
+			(uuid "7743038d-3f5c-4f47-9c47-d04936746fde")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6586,7 @@
 			(uuid "4d96791d-4a8c-4796-9aa3-7aaa953cde49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 90)
+			(at 0.402651 -2.25 90)
 			(layer "F.Fab")
 			(uuid "a54eb735-f9ff-4785-a9e7-1cba83a3b86f")
 			(effects
@@ -7624,6 +7613,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6a2354a0-7995-4613-bd88-ed86292c8b8b")
 			(effects
 				(font
@@ -7729,7 +7719,7 @@
 			(at 1.27 -6.1 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e9573e85-4a46-4577-b751-93e261ed49b8")
+			(uuid "d6442969-3fdb-435e-a36d-435990a2df2e")
 			(effects
 				(font
 					(size 1 1)
@@ -7740,7 +7730,7 @@
 		(property "Value" "IDC_2x5"
 			(at 1.27 16.26 0)
 			(layer "F.Fab")
-			(uuid "903576f2-3cc3-4fc0-a08e-c0b0fb22c006")
+			(uuid "2840ffed-3798-4751-831e-76783b8e0529")
 			(effects
 				(font
 					(size 1 1)
@@ -7752,7 +7742,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e972aabe-a5dc-4f7c-8a9f-65dba22c9c60")
+			(uuid "a829c409-db55-455f-98e2-7580f5bc6a73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7753,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8f1f041-2b06-4770-bd9e-be52c96b5b4d")
+			(uuid "37c91f0a-0042-4e7d-9a69-8a939e0468a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,6 +9241,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fc8b08d7-3422-49ff-81d1-4729f8a9004a")
 			(effects
 				(font
@@ -9834,7 +9825,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 3 -7 90)
+			(at 0.097349 -2 90)
 			(layer "F.SilkS")
 			(uuid "3e6d6d5d-c6cf-4410-b1fc-a236b3a6934a")
 			(effects
@@ -9845,7 +9836,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 1.75 5.25 90)
+			(at -3.402651 0 180)
 			(layer "F.Fab")
 			(uuid "3cb9d44b-cfd2-45cf-bbd8-89f4b6a8e778")
 			(effects
@@ -11525,7 +11516,7 @@
 			(uuid "0d605eb0-3b1c-43be-b6c3-208f7ad60516")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 0 90)
+			(at 0.097349 -2 90)
 			(layer "F.Fab")
 			(uuid "0fa3c551-9d12-48f8-99e9-cbddc9ae7416")
 			(effects
@@ -11707,6 +11698,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "004d2725-1cf9-4d16-b697-60d2919f7167")
 			(effects
 				(font
@@ -13110,9 +13102,9 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 1.762755 4.75 0)
+			(at 2.262755 -4.5 0)
 			(layer "F.SilkS")
-			(uuid "ef61c6be-c921-41ef-8a64-35254ba83802")
+			(uuid "955c04d0-0920-4739-a491-5afe7b02a933")
 			(effects
 				(font
 					(size 1 1)
@@ -13121,9 +13113,9 @@
 			)
 		)
 		(property "Value" "4700uF"
-			(at 3.75 9.25 0)
+			(at 0.262755 -3 0)
 			(layer "F.Fab")
-			(uuid "47f20d9c-edc7-46dc-930e-dab591e4e561")
+			(uuid "1f1f25b9-b865-4c1e-b437-eef763695d7c")
 			(effects
 				(font
 					(size 1 1)
@@ -13135,7 +13127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b94e1ea9-713c-4e58-8121-1f93f2c9f7c0")
+			(uuid "240d4b57-7757-4d03-89e6-c9a3bfb076c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13138,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20cbb20c-2903-404e-9ef1-fa286838e728")
+			(uuid "a15ef891-35ca-489a-9d36-3ec47ce55f74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,7 +16055,7 @@
 			)
 		)
 		(property "Value" "330uH"
-			(at 0 10.75 0)
+			(at 0 -2.86 0)
 			(layer "F.Fab")
 			(uuid "0c75327a-4b6c-464b-820e-834b8faeacb0")
 			(effects
@@ -16302,7 +16294,7 @@
 			(uuid "2d0e33cb-6e24-4a7b-aafa-bb8acac84ba1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.2 0 0)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "9dda5562-2629-495a-8505-60c911901b59")
 			(effects
@@ -16368,6 +16360,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "60c471b9-72ad-41d3-9337-7725da9c84ce")
 			(effects
 				(font
@@ -17446,6 +17439,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8281ac1b-8f23-4d50-ae9e-e2d40908aee1")
 			(effects
 				(font
@@ -18521,7 +18515,7 @@
 			)
 		)
 		(property "Value" "330uH"
-			(at 0 10.75 0)
+			(at 0.25 -2.36 0)
 			(layer "F.Fab")
 			(uuid "98729ec1-eda1-439c-8add-ac6262631948")
 			(effects
@@ -18760,7 +18754,7 @@
 			(uuid "9485675b-4469-4b6d-a592-a6a51a6569b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.2 0 0)
+			(at 0 4.2 0)
 			(layer "F.Fab")
 			(uuid "8933567b-50c2-4ec2-adb3-cd0d9ab0b007")
 			(effects
@@ -18811,8 +18805,8 @@
 		(at 280.5 173.71 -90)
 		(descr "LED, diameter 3.0mm, 2 pins, generated by kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "-12v1"
-			(at -2.46 -0.5 0)
+		(property "Reference" "-12v"
+			(at -2.46 0 0)
 			(layer "F.SilkS")
 			(uuid "872529ae-3838-4d33-9747-38302ea880b7")
 			(effects
@@ -20738,6 +20732,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1109ac87-9a64-4a14-b081-c62d707042b5")
 			(effects
 				(font
@@ -20839,7 +20834,7 @@
 		(at 274.75 173.75 -90)
 		(descr "LED, diameter 3.0mm, 2 pins, generated by kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "+5v1"
+		(property "Reference" "+5v"
 			(at -2.5 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "e0d226d5-4245-4f08-90fc-78a42f09d8c7")
@@ -22529,8 +22524,8 @@
 		(at 286.25 173.71 -90)
 		(descr "LED, diameter 3.0mm, 2 pins, generated by kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "+12v1"
-			(at -2.46 -0.5 0)
+		(property "Reference" "+12v"
+			(at -2.46 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "3d37f51f-bd1b-42fc-a959-d4f1fe75c903")
 			(effects
@@ -23002,7 +22997,7 @@
 			(at 1.27 -6.1 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f21a4d44-5b53-478c-a05d-df1fe0c08f1e")
+			(uuid "a6fbd818-2dba-47bf-8d38-f62f4fff599a")
 			(effects
 				(font
 					(size 1 1)
@@ -23013,7 +23008,7 @@
 		(property "Value" "IDC_2x8"
 			(at 1.27 23.88 0)
 			(layer "F.Fab")
-			(uuid "a4ef00b4-7d5d-443f-ac17-cc98a4c8e064")
+			(uuid "55008d2b-bd81-40b0-9ae8-9681faf8205d")
 			(effects
 				(font
 					(size 1 1)
@@ -23025,7 +23020,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ccdade2-700f-48d2-bc42-7d458e49158f")
+			(uuid "ecb18a8e-70dc-45ce-a684-0c485a47a70a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23036,7 +23031,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d938fbea-b5da-475e-a86a-b5c7a4a81422")
+			(uuid "995afe66-d46f-4e12-9a40-c021dd71f901")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24107,28 +24102,188 @@
 		(uuid "00093542-603f-40af-af6f-e5c0307d8dca")
 	)
 	(segment
-		(start 274.75 176.29)
-		(end 274.75 179.25)
+		(start 256.45 192.17)
+		(end 256.45 196.985585)
 		(width 1)
 		(layer "F.Cu")
-		(net "Net-(+5v1-A)")
-		(uuid "72d24a34-acc3-4eea-8b91-c189b49d2567")
+		(net "+12V")
+		(uuid "006f1ffd-96a7-4407-bc6b-4c922c2ddf27")
 	)
 	(segment
-		(start 286.25 176.25)
-		(end 286.25 179.25)
+		(start 245.525 184.455)
+		(end 238.75 191.23)
 		(width 1)
 		(layer "F.Cu")
-		(net "Net-(+12v1-A)")
-		(uuid "a0d5826e-6948-496e-b71d-39e61b90f507")
+		(net "+12V")
+		(uuid "15832572-beb1-43ad-8f69-b7c5ee3b740a")
 	)
 	(segment
-		(start 280.5 176.25)
-		(end 280.5 179.13)
+		(start 321.21 191.23)
+		(end 331.347968 191.23)
 		(width 1)
 		(layer "F.Cu")
-		(net "Net-(-12v1-A)")
-		(uuid "f4c184ff-b91c-4323-af3a-f697b91dfcf0")
+		(net "+12V")
+		(uuid "2b86b81c-06f6-490c-830a-faa5b6a2f20f")
+	)
+	(segment
+		(start 248.735 184.455)
+		(end 256.45 192.17)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "321c4eeb-e9ca-4374-8108-eb7cae27bb4c")
+	)
+	(segment
+		(start 299.01 190.5)
+		(end 304.75 196.24)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "3392ec1f-c8ad-41c6-8b26-65b0bac174a8")
+	)
+	(segment
+		(start 290.5 190.5)
+		(end 295.75 190.5)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "359b5c29-29e5-4be1-99ab-7c65edb733ca")
+	)
+	(segment
+		(start 232.747968 195.04)
+		(end 113.846 195.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "4506c73b-4e79-48ae-93c4-7b4a8c57129d")
+	)
+	(segment
+		(start 248.735 184.455)
+		(end 245.525 184.455)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "48e7d6b7-61a1-4169-9cbc-e2022ff2346f")
+	)
+	(segment
+		(start 309.76 191.23)
+		(end 321.21 191.23)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "58694ac1-1675-492e-a821-1a9a27371953")
+	)
+	(segment
+		(start 286.25 186.87)
+		(end 286.87 186.87)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "63037311-23ec-4f5e-ad9f-cb0f05d07955")
+	)
+	(segment
+		(start 304.75 196.24)
+		(end 309.76 191.23)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "8feaadce-3d4a-47c1-a1b3-621a3104675a")
+	)
+	(segment
+		(start 286.87 186.87)
+		(end 290.5 190.5)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "93cdddcd-29fa-4a4f-bd39-1b3a2f3b04bd")
+	)
+	(segment
+		(start 405.35 195.04)
+		(end 459.75 195.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "948b9412-678f-4520-a6c8-5331f885fb28")
+	)
+	(segment
+		(start 275.78133 194)
+		(end 279.12 194)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "977e9b5b-8ecc-4adb-bac3-4f394db91313")
+	)
+	(segment
+		(start 295.75 190.5)
+		(end 299.01 190.5)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "b882b09b-cb72-4ec8-adb0-736793aa9ad3")
+	)
+	(segment
+		(start 238.75 191.23)
+		(end 236.557968 191.23)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "b984b562-f17f-4eab-bf3d-58a5e5c422e5")
+	)
+	(segment
+		(start 331.347968 191.23)
+		(end 335.157968 195.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "be897458-4193-4689-9db0-df3af018807c")
+	)
+	(segment
+		(start 257.504415 198.04)
+		(end 271.74133 198.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "c05ebeb2-9c4e-4365-b7f4-75471062ea08")
+	)
+	(segment
+		(start 271.74133 198.04)
+		(end 275.78133 194)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "c61dc53b-0b9a-4d54-bab8-16c2c863c725")
+	)
+	(segment
+		(start 256.45 196.985585)
+		(end 257.504415 198.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "e0084ba4-8025-4040-b45b-e7e5ee03bdc2")
+	)
+	(segment
+		(start 335.157968 195.04)
+		(end 405.35 195.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "ece00604-6b0d-4060-ac84-b9dd4a4f0787")
+	)
+	(segment
+		(start 279.12 194)
+		(end 286.25 186.87)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "f5f910f1-43e2-42a9-93c0-30ae03e2f25e")
+	)
+	(segment
+		(start 236.557968 191.23)
+		(end 232.747968 195.04)
+		(width 1)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "f989db9a-7029-4dd8-aec2-c65d0900fee4")
 	)
 	(segment
 		(start 334.81 184.88)
@@ -24331,190 +24486,6 @@
 		(uuid "9f7c51ac-2670-4f93-886c-5e0d5ebb226e")
 	)
 	(segment
-		(start 256.45 192.17)
-		(end 256.45 196.985585)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "006f1ffd-96a7-4407-bc6b-4c922c2ddf27")
-	)
-	(segment
-		(start 245.525 184.455)
-		(end 238.75 191.23)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "15832572-beb1-43ad-8f69-b7c5ee3b740a")
-	)
-	(segment
-		(start 321.21 191.23)
-		(end 331.347968 191.23)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "2b86b81c-06f6-490c-830a-faa5b6a2f20f")
-	)
-	(segment
-		(start 248.735 184.455)
-		(end 256.45 192.17)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "321c4eeb-e9ca-4374-8108-eb7cae27bb4c")
-	)
-	(segment
-		(start 299.01 190.5)
-		(end 304.75 196.24)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "3392ec1f-c8ad-41c6-8b26-65b0bac174a8")
-	)
-	(segment
-		(start 290.5 190.5)
-		(end 295.75 190.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "359b5c29-29e5-4be1-99ab-7c65edb733ca")
-	)
-	(segment
-		(start 232.747968 195.04)
-		(end 113.846 195.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "4506c73b-4e79-48ae-93c4-7b4a8c57129d")
-	)
-	(segment
-		(start 248.735 184.455)
-		(end 245.525 184.455)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "48e7d6b7-61a1-4169-9cbc-e2022ff2346f")
-	)
-	(segment
-		(start 309.76 191.23)
-		(end 321.21 191.23)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "58694ac1-1675-492e-a821-1a9a27371953")
-	)
-	(segment
-		(start 286.25 186.87)
-		(end 286.87 186.87)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "63037311-23ec-4f5e-ad9f-cb0f05d07955")
-	)
-	(segment
-		(start 304.75 196.24)
-		(end 309.76 191.23)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "8feaadce-3d4a-47c1-a1b3-621a3104675a")
-	)
-	(segment
-		(start 286.87 186.87)
-		(end 290.5 190.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "93cdddcd-29fa-4a4f-bd39-1b3a2f3b04bd")
-	)
-	(segment
-		(start 405.35 195.04)
-		(end 459.75 195.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "948b9412-678f-4520-a6c8-5331f885fb28")
-	)
-	(segment
-		(start 275.78133 194)
-		(end 279.12 194)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "977e9b5b-8ecc-4adb-bac3-4f394db91313")
-	)
-	(segment
-		(start 295.75 190.5)
-		(end 299.01 190.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "b882b09b-cb72-4ec8-adb0-736793aa9ad3")
-	)
-	(segment
-		(start 238.75 191.23)
-		(end 236.557968 191.23)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "b984b562-f17f-4eab-bf3d-58a5e5c422e5")
-	)
-	(segment
-		(start 331.347968 191.23)
-		(end 335.157968 195.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "be897458-4193-4689-9db0-df3af018807c")
-	)
-	(segment
-		(start 257.504415 198.04)
-		(end 271.74133 198.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "c05ebeb2-9c4e-4365-b7f4-75471062ea08")
-	)
-	(segment
-		(start 271.74133 198.04)
-		(end 275.78133 194)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "c61dc53b-0b9a-4d54-bab8-16c2c863c725")
-	)
-	(segment
-		(start 256.45 196.985585)
-		(end 257.504415 198.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "e0084ba4-8025-4040-b45b-e7e5ee03bdc2")
-	)
-	(segment
-		(start 335.157968 195.04)
-		(end 405.35 195.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "ece00604-6b0d-4060-ac84-b9dd4a4f0787")
-	)
-	(segment
-		(start 279.12 194)
-		(end 286.25 186.87)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "f5f910f1-43e2-42a9-93c0-30ae03e2f25e")
-	)
-	(segment
-		(start 236.557968 191.23)
-		(end 232.747968 195.04)
-		(width 1)
-		(layer "F.Cu")
-		(net "+12V")
-		(uuid "f989db9a-7029-4dd8-aec2-c65d0900fee4")
-	)
-	(segment
 		(start 275.25 204.25)
 		(end 274.25 204.25)
 		(width 1)
@@ -24617,6 +24588,30 @@
 		(layer "B.Cu")
 		(net "+5V")
 		(uuid "e712baca-5827-45df-9a2b-73a4f5f31561")
+	)
+	(segment
+		(start 280.5 176.25)
+		(end 280.5 179.13)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(-12v1-A)")
+		(uuid "f4c184ff-b91c-4323-af3a-f697b91dfcf0")
+	)
+	(segment
+		(start 286.25 176.25)
+		(end 286.25 179.25)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(+12v1-A)")
+		(uuid "a0d5826e-6948-496e-b71d-39e61b90f507")
+	)
+	(segment
+		(start 274.75 176.29)
+		(end 274.75 179.25)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(+5v1-A)")
+		(uuid "72d24a34-acc3-4eea-8b91-c189b49d2567")
 	)
 	(zone
 		(net "GND")
